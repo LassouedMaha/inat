@@ -67,5 +67,17 @@ form{
     position: relative;
     display: flex;
     flex-direction: column;
-    
+ 
+}
+@media screen and (max-width : 600px) {
+    .login h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    ::placeholder{
+        text-align: center;
+    }
+    #user,#lock{
+        left:35px;
+    }
 }

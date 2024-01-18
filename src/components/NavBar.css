@@ -7,7 +7,7 @@
     justify-content: space-between;
     top: 0;
     z-index: 100; 
-  }
+}
 .haute-droit{
     margin-left: auto;
 }
@@ -82,4 +82,25 @@ a{
     justify-content: center;
     right: 125px;
     top: 27px;
+}
+@media screen and (max-width : 600px) {
+    a,.iconinscri{
+        display: none;
+    }
+    .haute-gauche h1 ,.haute-gauche h2 {
+        font-size:13px;
+        margin-top: 5px;
+    }
+    .navbar{
+        width: 600px;
+    }
+    .haute-gauche{
+        font-size: 5px;
+    }
+    .rect{
+        margin-left: 220px;
+    }
+    img{
+        margin-left: 5px;
+    }
 }

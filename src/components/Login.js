@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState}from 'react';
 import InputField from './InputField';
 import Button from './Button';
 import './Login.css';
@@ -18,12 +18,12 @@ const Login = () => {
         <div className="input-container">
           <FaUser id="user" />
             
-          <InputField type="email" placeholder="Entrer ton adresse email" id="email" icon={FaUser} />
+          <InputField type="email" placeholder="Entrer ton adresse email" id="email" className='email' icon={FaUser} />
         </div>
         <div className="input-container">
           <RiLock2Fill id="lock" />
         
-          <InputField type="password" placeholder="Mot de passe" id="pwd" icon={RiLock2Fill} />
+          <InputField type="password" placeholder="Mot de passe" id="pwd" className='pwd'icon={RiLock2Fill}  />
         </div>
         <Button text="Se connecter" id="butt" />
       </form>

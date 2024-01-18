@@ -1,0 +1,71 @@
+.login h1{
+    color: #CDD766;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top:5%;
+}
+.login h2{
+    color: #CDD766;
+    font-size: 22px;
+    font-weight: 700;
+}
+.login{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+.form h1{
+    color: #D1D1D1;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 2px;
+    margin-top: 7%;
+}
+#pp{
+    color: #D1D1D1;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    margin: 2px;
+  
+}
+form{
+    text-align: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+#user{
+    color:#D1D1D1;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left:190px;
+    bottom:-50px ;
+}
+#lock{
+    color:#D1D1D1;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left:190px;
+    bottom:-50px ;
+}
+.line1,.line2{
+    color:#D1D1D1;
+
+}
+#btt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}

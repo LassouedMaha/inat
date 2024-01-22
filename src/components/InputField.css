@@ -7,6 +7,7 @@
     height: 50px;
     background: transparent;
     border-width: 2px;
+    color: #fff;
     border-color: #D1D1D1;
     border-style: solid;
     stroke-width: 1px;
@@ -18,7 +19,8 @@
 } 
 ::placeholder{
     color: #D1D1D1;
-    text-align:left;}
+    text-align:left;
+    padding-left: 35px;}
 .icon {
     position: absolute;
     top: 50%;
@@ -26,4 +28,5 @@
     transform: translateY(-50%);
     color: #D1D1D1; 
   }
+
   

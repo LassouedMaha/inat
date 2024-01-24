@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import supabase from './supabaseClient';
+import {supabase} from './supabaseClient';
 import InputField from './InputField';
 import Button from './Button';
 import './Login.css';
@@ -20,7 +20,7 @@ const Login = () => {
 };
   const handleSubmit= async(e)=> {
     e.preventDefault();
-   
+   console.log(FormData);
     const { data, error } = await supabase.auth.signInWithPassword({ 
       email:FormData.email,
       password:FormData.password });

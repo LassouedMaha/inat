@@ -1,7 +1,7 @@
 import React from 'react';
 import './InputField.css';
 
-const InputField = ({ type, placeholder,className, value, name,onChange }) => {
+const InputField = ({ type, placeholder,className, value, name, onChange }) => {
   return (
     <div className="input">
 

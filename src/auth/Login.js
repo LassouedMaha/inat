@@ -12,6 +12,7 @@ const Login = () => {
   const [FormData,setFormData]=useState({email:'',password:''})
   
   const handleChange=(event)=> {
+
   const { name, value } = event.target;
   setFormData((prevFormData) =>( {
       ...prevFormData,
@@ -20,7 +21,7 @@ const Login = () => {
 };
   const handleSubmit= async(e)=> {
     e.preventDefault();
-   console.log(FormData);
+    console.log(FormData);
     const { data, error } = await supabase.auth.signInWithPassword({ 
       email:FormData.email,
       password:FormData.password });
